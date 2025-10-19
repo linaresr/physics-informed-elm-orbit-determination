@@ -1,0 +1,18 @@
+{
+  "all_results": [
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 100000.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 104,
+      "cost": 0.0011277631644880817,
+      "physics_rms": 0.0017689448909358229,
+      "measurement_rms": 7.493157047707484,
+      "position_rms": 1626.5898783099894,
+      "position_range": [
+        38917.46393714547,
+        41260.78310553555
+      ],
+      "meets_position_target": 

@@ -1,0 +1,637 @@
+{
+  "all_results": [
+    {
+      "L": 8,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 20,
+      "success": true,
+      "nfev": 12918,
+      "cost": 490130.063672147,
+      "physics_rms": 130.48478130878723,
+      "measurement_rms": 213155.64271332446,
+      "position_range": [
+        353.5558142458906,
+        28103.533439244926
+      ],
+      "position_rms": 37865.82726370199
+    },
+    {
+      "L": 12,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 25,
+      "success": true,
+      "nfev": 105,
+      "cost": 2.5404289685663612,
+      "physics_rms": 0.23310355354509324,
+      "measurement_rms": 1346.6926900402193,
+      "position_range": [
+        4064265.6045209607,
+        13406620.025905915
+      ],
+      "position_rms": 9108422.84726411
+    },
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 1169,
+      "cost": 497814.18854282785,
+      "physics_rms": 106.23228464740563,
+      "measurement_rms": 233814.37317342186,
+      "position_range": [
+        353.6935505299308,
+        289126.96272438136
+      ],
+      "position_rms": 77923.70629394037
+    },
+    {
+      "L": 20,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 35,
+      "success": true,
+      "nfev": 110,
+      "cost": 540.1574689650029,
+      "physics_rms": 1.3898739616673343,
+      "measurement_rms": 105724.03325655569,
+      "position_range": [
+        6692.015284372967,
+        31362.819756524223
+      ],
+      "position_rms": 28819.428736712212
+    },
+    {
+      "L": 24,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 110,
+      "cost": 0.00017172739280165065,
+      "physics_rms": 0.0005744070971597676,
+      "measurement_rms": 126.93800261168194,
+      "position_range": [
+        38195.20192183919,
+        44456.31963681641
+      ],
+      "position_rms": 1918.610334843553
+    },
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 104,
+      "cost": 123.64463893970303,
+      "physics_rms": 0.0004333921251495694,
+      "measurement_rms": 174548.65217068052,
+      "position_range": [
+        363.491086166042,
+        363.4911271730568
+      ],
+      "position_rms": 41800.508896392326
+    },
+    {
+      "L": 20,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 35,
+      "success": true,
+      "nfev": 102,
+      "cost": 123.7807008201053,
+      "physics_rms": 0.0002778635728258031,
+      "measurement_rms": 174962.93975349327,
+      "position_range": [
+        363.4910413780219,
+        363.4911550356443
+      ],
+      "position_rms": 41800.50889667472
+    },
+    {
+      "L": 24,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 108,
+      "cost": 63.039504319484436,
+      "physics_rms": 0.31346686770973553,
+      "measurement_rms": 136796.50408135453,
+      "position_range": [
+        7621.475308536608,
+        17293.06688921144
+      ],
+      "position_rms": 31228.335433462722
+    },
+    {
+      "L": 28,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 45,
+      "success": true,
+      "nfev": 114,
+      "cost": 0.35355024474837715,
+      "physics_rms": 0.07006015415546576,
+      "measurement_rms": 654.7808895051002,
+      "position_range": [
+        3050706.6642442737,
+        4959800.434151904
+      ],
+      "position_rms": 4000817.7051322875
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 726,
+      "cost": 992379.8178269007,
+      "physics_rms": 115.54801203038532,
+      "measurement_rms": 211457.50969525333,
+      "position_range": [
+        353.63901051007315,
+        64307.23314689472
+      ],
+      "position_rms": 36023.58633264457
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 98,
+      "cost": 0.0005476780800359821,
+      "physics_rms": 0.002253038148079917,
+      "measurement_rms": 125.67314715352337,
+      "position_range": [
+        2688175.802173373,
+        2700045.329717137
+      ],
+      "position_rms": 2651240.8089059545
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 60,
+      "success": true,
+      "nfev": 132,
+      "cost": 54.026820727475666,
+      "physics_rms": 0.7526176738259938,
+      "measurement_rms": 5610.37789516648,
+      "position_range": [
+        6378.183178899685,
+        31339.505992359416
+      ],
+      "position_rms": 19801.01767298933
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 70,
+      "success": true,
+      "nfev": 1900,
+      "cost": 1258890.22951784,
+      "physics_rms": 109.660535338671,
+      "measurement_rms": 196455.05618842703,
+      "position_range": [
+        353.64971783690163,
+        31348.23505692847
+      ],
+      "position_rms": 39485.84247715395
+    },
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 1000.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 883,
+      "cost": 1.0079287309812694,
+      "physics_rms": 0.14034875689732343,
+      "measurement_rms": 362.9427289559902,
+      "position_range": [
+        12773.369293686452,
+        54875.03667970917
+      ],
+      "position_rms": 12905.540793594948
+    },
+    {
+      "L": 20,
+      "lam_f": 1.0,
+      "lam_th": 1000.0,
+      "N_colloc": 35,
+      "success": true,
+      "nfev": 119,
+      "cost": 0.000688697547532721,
+      "physics_rms": 0.00010280970869047391,
+      "measurement_rms": 85.57105198972172,
+      "position_range": [
+        1894222.2764252378,
+        1925840.9112312314
+      ],
+      "position_rms": 1867373.307492406
+    },
+    {
+      "L": 24,
+      "lam_f": 1.0,
+      "lam_th": 1000.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 104,
+      "cost": 0.0011973242360803487,
+      "physics_rms": 0.0021820359251087254,
+      "measurement_rms": 98.67888369146883,
+      "position_range": [
+        39551.447238854525,
+        47238.02118456976
+      ],
+      "position_rms": 3730.1656987421893
+    },
+    {
+      "L": 24,
+      "lam_f": 100.0,
+      "lam_th": 1.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 830,
+      "cost": 62529286.13928028,
+      "physics_rms": 102.88312747681384,
+      "measurement_rms": 231579.25463280524,
+      "position_range": [
+        353.7942305122069,
+        322674.5200111065
+      ],
+      "position_rms": 101884.0843061435
+    },
+    {
+      "L": 32,
+      "lam_f": 100.0,
+      "lam_th": 1.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 206,
+      "cost": 1155.9617937801072,
+      "physics_rms": 0.38287948113361614,
+      "measurement_rms": 218665.04319077582,
+      "position_range": [
+        4946.101850352032,
+        14466.403381982947
+      ],
+      "position_rms": 30804.037865595128
+    }
+  ],
+  "successful_results": [
+    {
+      "L": 8,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 20,
+      "success": true,
+      "nfev": 12918,
+      "cost": 490130.063672147,
+      "physics_rms": 130.48478130878723,
+      "measurement_rms": 213155.64271332446,
+      "position_range": [
+        353.5558142458906,
+        28103.533439244926
+      ],
+      "position_rms": 37865.82726370199
+    },
+    {
+      "L": 12,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 25,
+      "success": true,
+      "nfev": 105,
+      "cost": 2.5404289685663612,
+      "physics_rms": 0.23310355354509324,
+      "measurement_rms": 1346.6926900402193,
+      "position_range": [
+        4064265.6045209607,
+        13406620.025905915
+      ],
+      "position_rms": 9108422.84726411
+    },
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 1169,
+      "cost": 497814.18854282785,
+      "physics_rms": 106.23228464740563,
+      "measurement_rms": 233814.37317342186,
+      "position_range": [
+        353.6935505299308,
+        289126.96272438136
+      ],
+      "position_rms": 77923.70629394037
+    },
+    {
+      "L": 20,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 35,
+      "success": true,
+      "nfev": 110,
+      "cost": 540.1574689650029,
+      "physics_rms": 1.3898739616673343,
+      "measurement_rms": 105724.03325655569,
+      "position_range": [
+        6692.015284372967,
+        31362.819756524223
+      ],
+      "position_rms": 28819.428736712212
+    },
+    {
+      "L": 24,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 110,
+      "cost": 0.00017172739280165065,
+      "physics_rms": 0.0005744070971597676,
+      "measurement_rms": 126.93800261168194,
+      "position_range": [
+        38195.20192183919,
+        44456.31963681641
+      ],
+      "position_rms": 1918.610334843553
+    },
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 104,
+      "cost": 123.64463893970303,
+      "physics_rms": 0.0004333921251495694,
+      "measurement_rms": 174548.65217068052,
+      "position_range": [
+        363.491086166042,
+        363.4911271730568
+      ],
+      "position_rms": 41800.508896392326
+    },
+    {
+      "L": 20,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 35,
+      "success": true,
+      "nfev": 102,
+      "cost": 123.7807008201053,
+      "physics_rms": 0.0002778635728258031,
+      "measurement_rms": 174962.93975349327,
+      "position_range": [
+        363.4910413780219,
+        363.4911550356443
+      ],
+      "position_rms": 41800.50889667472
+    },
+    {
+      "L": 24,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 108,
+      "cost": 63.039504319484436,
+      "physics_rms": 0.31346686770973553,
+      "measurement_rms": 136796.50408135453,
+      "position_range": [
+        7621.475308536608,
+        17293.06688921144
+      ],
+      "position_rms": 31228.335433462722
+    },
+    {
+      "L": 28,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 45,
+      "success": true,
+      "nfev": 114,
+      "cost": 0.35355024474837715,
+      "physics_rms": 0.07006015415546576,
+      "measurement_rms": 654.7808895051002,
+      "position_range": [
+        3050706.6642442737,
+        4959800.434151904
+      ],
+      "position_rms": 4000817.7051322875
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 10.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 726,
+      "cost": 992379.8178269007,
+      "physics_rms": 115.54801203038532,
+      "measurement_rms": 211457.50969525333,
+      "position_range": [
+        353.63901051007315,
+        64307.23314689472
+      ],
+      "position_rms": 36023.58633264457
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 98,
+      "cost": 0.0005476780800359821,
+      "physics_rms": 0.002253038148079917,
+      "measurement_rms": 125.67314715352337,
+      "position_range": [
+        2688175.802173373,
+        2700045.329717137
+      ],
+      "position_rms": 2651240.8089059545
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 60,
+      "success": true,
+      "nfev": 132,
+      "cost": 54.026820727475666,
+      "physics_rms": 0.7526176738259938,
+      "measurement_rms": 5610.37789516648,
+      "position_range": [
+        6378.183178899685,
+        31339.505992359416
+      ],
+      "position_rms": 19801.01767298933
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 100.0,
+      "N_colloc": 70,
+      "success": true,
+      "nfev": 1900,
+      "cost": 1258890.22951784,
+      "physics_rms": 109.660535338671,
+      "measurement_rms": 196455.05618842703,
+      "position_range": [
+        353.64971783690163,
+        31348.23505692847
+      ],
+      "position_rms": 39485.84247715395
+    },
+    {
+      "L": 16,
+      "lam_f": 1.0,
+      "lam_th": 1000.0,
+      "N_colloc": 30,
+      "success": true,
+      "nfev": 883,
+      "cost": 1.0079287309812694,
+      "physics_rms": 0.14034875689732343,
+      "measurement_rms": 362.9427289559902,
+      "position_range": [
+        12773.369293686452,
+        54875.03667970917
+      ],
+      "position_rms": 12905.540793594948
+    },
+    {
+      "L": 20,
+      "lam_f": 1.0,
+      "lam_th": 1000.0,
+      "N_colloc": 35,
+      "success": true,
+      "nfev": 119,
+      "cost": 0.000688697547532721,
+      "physics_rms": 0.00010280970869047391,
+      "measurement_rms": 85.57105198972172,
+      "position_range": [
+        1894222.2764252378,
+        1925840.9112312314
+      ],
+      "position_rms": 1867373.307492406
+    },
+    {
+      "L": 24,
+      "lam_f": 1.0,
+      "lam_th": 1000.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 104,
+      "cost": 0.0011973242360803487,
+      "physics_rms": 0.0021820359251087254,
+      "measurement_rms": 98.67888369146883,
+      "position_range": [
+        39551.447238854525,
+        47238.02118456976
+      ],
+      "position_rms": 3730.1656987421893
+    },
+    {
+      "L": 24,
+      "lam_f": 100.0,
+      "lam_th": 1.0,
+      "N_colloc": 40,
+      "success": true,
+      "nfev": 830,
+      "cost": 62529286.13928028,
+      "physics_rms": 102.88312747681384,
+      "measurement_rms": 231579.25463280524,
+      "position_range": [
+        353.7942305122069,
+        322674.5200111065
+      ],
+      "position_rms": 101884.0843061435
+    },
+    {
+      "L": 32,
+      "lam_f": 100.0,
+      "lam_th": 1.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 206,
+      "cost": 1155.9617937801072,
+      "physics_rms": 0.38287948113361614,
+      "measurement_rms": 218665.04319077582,
+      "position_range": [
+        4946.101850352032,
+        14466.403381982947
+      ],
+      "position_rms": 30804.037865595128
+    }
+  ],
+  "best_measurement": {
+    "L": 20,
+    "lam_f": 1.0,
+    "lam_th": 1000.0,
+    "N_colloc": 35,
+    "success": true,
+    "nfev": 119,
+    "cost": 0.000688697547532721,
+    "physics_rms": 0.00010280970869047391,
+    "measurement_rms": 85.57105198972172,
+    "position_range": [
+      1894222.2764252378,
+      1925840.9112312314
+    ],
+    "position_rms": 1867373.307492406
+  },
+  "best_position": {
+    "L": 24,
+    "lam_f": 1.0,
+    "lam_th": 100.0,
+    "N_colloc": 40,
+    "success": true,
+    "nfev": 110,
+    "cost": 0.00017172739280165065,
+    "physics_rms": 0.0005744070971597676,
+    "measurement_rms": 126.93800261168194,
+    "position_range": [
+      38195.20192183919,
+      44456.31963681641
+    ],
+    "position_rms": 1918.610334843553
+  },
+  "best_combined": {
+    "L": 24,
+    "lam_f": 1.0,
+    "lam_th": 100.0,
+    "N_colloc": 40,
+    "success": true,
+    "nfev": 110,
+    "cost": 0.00017172739280165065,
+    "physics_rms": 0.0005744070971597676,
+    "measurement_rms": 126.93800261168194,
+    "position_range": [
+      38195.20192183919,
+      44456.31963681641
+    ],
+    "position_rms": 1918.610334843553
+  },
+  "metadata": {
+    "total_configurations": 18,
+    "successful_configurations": 18,
+    "orbit_duration_hours": 3.0,
+    "observations_count": 8,
+    "noise_level_arcsec": 61.87944187412891
+  }
+}

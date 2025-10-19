@@ -1,0 +1,644 @@
+{
+  "all_results": [
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 2000000.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 118,
+      "cost": 0.0036403588788386032,
+      "physics_rms": 0.0027743898604905047,
+      "measurement_rms": 2.5015103368674665,
+      "position_rms": 1809.008984086459,
+      "position_range": [
+        38297.88104187979,
+        41325.76265647499
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 5000000.0,
+      "N_colloc": 60,
+      "success": true,
+      "nfev": 124,
+      "cost": 0.005304005722596861,
+      "physics_rms": 0.002237008032891684,
+      "measurement_rms": 2.0259401522955076,
+      "position_rms": 2191.188344480139,
+      "position_range": [
+        37581.447319674924,
+        41156.22373212471
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 10000000.0,
+      "N_colloc": 70,
+      "success": true,
+      "nfev": 120,
+      "cost": 0.02164415794205326,
+      "physics_rms": 0.010098295318287782,
+      "measurement_rms": 2.0757483974868887,
+      "position_rms": 81385.58284704202,
+      "position_range": [
+        106099.49020621624,
+        139606.23703048265
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 56,
+      "lam_f": 1.0,
+      "lam_th": 20000000.0,
+      "N_colloc": 80,
+      "success": true,
+      "nfev": 127,
+      "cost": 0.027952232307404158,
+      "physics_rms": 0.007293469306449555,
+      "measurement_rms": 2.1433840811215297,
+      "position_rms": 324847.16185086675,
+      "position_range": [
+        348913.0996402717,
+        384768.1709892695
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 64,
+      "lam_f": 1.0,
+      "lam_th": 50000000.0,
+      "N_colloc": 90,
+      "success": true,
+      "nfev": 140,
+      "cost": 0.06363697439792919,
+      "physics_rms": 0.0016370128001081024,
+      "measurement_rms": 2.320348522252508,
+      "position_rms": 17328911.886524364,
+      "position_range": [
+        17344594.49497729,
+        17398972.737148926
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 10000000.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 117,
+      "cost": 0.010876488818853686,
+      "physics_rms": 0.002697720041420918,
+      "measurement_rms": 2.091114624396049,
+      "position_rms": 1950.1587818781072,
+      "position_range": [
+        37920.41240941639,
+        41374.58724902845
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 20000000.0,
+      "N_colloc": 60,
+      "success": true,
+      "nfev": 121,
+      "cost": 0.018146490938588694,
+      "physics_rms": 0.003591236842670338,
+      "measurement_rms": 1.8850245566753634,
+      "position_rms": 2874.095673046671,
+      "position_range": [
+        36180.87721178505,
+        41152.895681300724
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 50000000.0,
+      "N_colloc": 70,
+      "success": true,
+      "nfev": 112,
+      "cost": 0.05067178054605607,
+      "physics_rms": 0.0038375028262619885,
+      "measurement_rms": 2.039490091215171,
+      "position_rms": 2431.86631904306,
+      "position_range": [
+        36898.172210618395,
+        41400.22816681811
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 56,
+      "lam_f": 1.0,
+      "lam_th": 100000000.0,
+      "N_colloc": 80,
+      "success": true,
+      "nfev": 110,
+      "cost": 0.1251110566086829,
+      "physics_rms": 0.0006842312494107703,
+      "measurement_rms": 2.3066167083695084,
+      "position_rms": 129223549.40816723,
+      "position_range": [
+        129181198.3104497,
+        129360914.06216267
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 64,
+      "lam_f": 1.0,
+      "lam_th": 200000000.0,
+      "N_colloc": 90,
+      "success": true,
+      "nfev": 130,
+      "cost": 0.18717472188357848,
+      "physics_rms": 0.008413660462262877,
+      "measurement_rms": 1.9422164015046908,
+      "position_rms": 41072.49293112123,
+      "position_range": [
+        67496.25837382897,
+        96704.16217817679
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 50000000.0,
+      "N_colloc": 100,
+      "success": true,
+      "nfev": 111,
+      "cost": 0.044913047377045934,
+      "physics_rms": 0.004163723935323693,
+      "measurement_rms": 1.891897538160466,
+      "position_rms": 1972.936522397497,
+      "position_range": [
+        37812.34115640566,
+        41444.85072850637
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 100000000.0,
+      "N_colloc": 120,
+      "success": true,
+      "nfev": 166,
+      "cost": 0.08278726351871236,
+      "physics_rms": 0.00641564696771101,
+      "measurement_rms": 1.783270676410711,
+      "position_rms": 3210.9961666121903,
+      "position_range": [
+        35582.639377773994,
+        41071.430881533706
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 200000000.0,
+      "N_colloc": 140,
+      "success": true,
+      "nfev": 4597,
+      "cost": 4672.985833006218,
+      "physics_rms": 4.2028799288827505,
+      "measurement_rms": 140.21796463033323,
+      "position_rms": 77556.39143510279,
+      "position_range": [
+        6378.905525665608,
+        188975.5905215118
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": false,
+      "meets_both_targets": false
+    },
+    {
+      "L": 56,
+      "lam_f": 1.0,
+      "lam_th": 500000000.0,
+      "N_colloc": 160,
+      "success": true,
+      "nfev": 112,
+      "cost": 0.37961966050343354,
+      "physics_rms": 0.006828184916832401,
+      "measurement_rms": 1.7697098673388636,
+      "position_rms": 2471.463522334679,
+      "position_range": [
+        37457.08046571976,
+        40674.03864632327
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 64,
+      "lam_f": 1.0,
+      "lam_th": 1000000000.0,
+      "N_colloc": 180,
+      "success": true,
+      "nfev": 142,
+      "cost": 0.78061559584218,
+      "physics_rms": 0.008294464519144085,
+      "measurement_rms": 1.8003341595653812,
+      "position_rms": 1460.7075413045295,
+      "position_range": [
+        39586.79592741995,
+        44075.90484995066
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    }
+  ],
+  "successful_results": [
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 2000000.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 118,
+      "cost": 0.0036403588788386032,
+      "physics_rms": 0.0027743898604905047,
+      "measurement_rms": 2.5015103368674665,
+      "position_rms": 1809.008984086459,
+      "position_range": [
+        38297.88104187979,
+        41325.76265647499
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 5000000.0,
+      "N_colloc": 60,
+      "success": true,
+      "nfev": 124,
+      "cost": 0.005304005722596861,
+      "physics_rms": 0.002237008032891684,
+      "measurement_rms": 2.0259401522955076,
+      "position_rms": 2191.188344480139,
+      "position_range": [
+        37581.447319674924,
+        41156.22373212471
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 10000000.0,
+      "N_colloc": 70,
+      "success": true,
+      "nfev": 120,
+      "cost": 0.02164415794205326,
+      "physics_rms": 0.010098295318287782,
+      "measurement_rms": 2.0757483974868887,
+      "position_rms": 81385.58284704202,
+      "position_range": [
+        106099.49020621624,
+        139606.23703048265
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 56,
+      "lam_f": 1.0,
+      "lam_th": 20000000.0,
+      "N_colloc": 80,
+      "success": true,
+      "nfev": 127,
+      "cost": 0.027952232307404158,
+      "physics_rms": 0.007293469306449555,
+      "measurement_rms": 2.1433840811215297,
+      "position_rms": 324847.16185086675,
+      "position_range": [
+        348913.0996402717,
+        384768.1709892695
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 64,
+      "lam_f": 1.0,
+      "lam_th": 50000000.0,
+      "N_colloc": 90,
+      "success": true,
+      "nfev": 140,
+      "cost": 0.06363697439792919,
+      "physics_rms": 0.0016370128001081024,
+      "measurement_rms": 2.320348522252508,
+      "position_rms": 17328911.886524364,
+      "position_range": [
+        17344594.49497729,
+        17398972.737148926
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 10000000.0,
+      "N_colloc": 50,
+      "success": true,
+      "nfev": 117,
+      "cost": 0.010876488818853686,
+      "physics_rms": 0.002697720041420918,
+      "measurement_rms": 2.091114624396049,
+      "position_rms": 1950.1587818781072,
+      "position_range": [
+        37920.41240941639,
+        41374.58724902845
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 20000000.0,
+      "N_colloc": 60,
+      "success": true,
+      "nfev": 121,
+      "cost": 0.018146490938588694,
+      "physics_rms": 0.003591236842670338,
+      "measurement_rms": 1.8850245566753634,
+      "position_rms": 2874.095673046671,
+      "position_range": [
+        36180.87721178505,
+        41152.895681300724
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 50000000.0,
+      "N_colloc": 70,
+      "success": true,
+      "nfev": 112,
+      "cost": 0.05067178054605607,
+      "physics_rms": 0.0038375028262619885,
+      "measurement_rms": 2.039490091215171,
+      "position_rms": 2431.86631904306,
+      "position_range": [
+        36898.172210618395,
+        41400.22816681811
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 56,
+      "lam_f": 1.0,
+      "lam_th": 100000000.0,
+      "N_colloc": 80,
+      "success": true,
+      "nfev": 110,
+      "cost": 0.1251110566086829,
+      "physics_rms": 0.0006842312494107703,
+      "measurement_rms": 2.3066167083695084,
+      "position_rms": 129223549.40816723,
+      "position_range": [
+        129181198.3104497,
+        129360914.06216267
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 64,
+      "lam_f": 1.0,
+      "lam_th": 200000000.0,
+      "N_colloc": 90,
+      "success": true,
+      "nfev": 130,
+      "cost": 0.18717472188357848,
+      "physics_rms": 0.008413660462262877,
+      "measurement_rms": 1.9422164015046908,
+      "position_rms": 41072.49293112123,
+      "position_range": [
+        67496.25837382897,
+        96704.16217817679
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 32,
+      "lam_f": 1.0,
+      "lam_th": 50000000.0,
+      "N_colloc": 100,
+      "success": true,
+      "nfev": 111,
+      "cost": 0.044913047377045934,
+      "physics_rms": 0.004163723935323693,
+      "measurement_rms": 1.891897538160466,
+      "position_rms": 1972.936522397497,
+      "position_range": [
+        37812.34115640566,
+        41444.85072850637
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 40,
+      "lam_f": 1.0,
+      "lam_th": 100000000.0,
+      "N_colloc": 120,
+      "success": true,
+      "nfev": 166,
+      "cost": 0.08278726351871236,
+      "physics_rms": 0.00641564696771101,
+      "measurement_rms": 1.783270676410711,
+      "position_rms": 3210.9961666121903,
+      "position_range": [
+        35582.639377773994,
+        41071.430881533706
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 48,
+      "lam_f": 1.0,
+      "lam_th": 200000000.0,
+      "N_colloc": 140,
+      "success": true,
+      "nfev": 4597,
+      "cost": 4672.985833006218,
+      "physics_rms": 4.2028799288827505,
+      "measurement_rms": 140.21796463033323,
+      "position_rms": 77556.39143510279,
+      "position_range": [
+        6378.905525665608,
+        188975.5905215118
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": false,
+      "meets_both_targets": false
+    },
+    {
+      "L": 56,
+      "lam_f": 1.0,
+      "lam_th": 500000000.0,
+      "N_colloc": 160,
+      "success": true,
+      "nfev": 112,
+      "cost": 0.37961966050343354,
+      "physics_rms": 0.006828184916832401,
+      "measurement_rms": 1.7697098673388636,
+      "position_rms": 2471.463522334679,
+      "position_range": [
+        37457.08046571976,
+        40674.03864632327
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    },
+    {
+      "L": 64,
+      "lam_f": 1.0,
+      "lam_th": 1000000000.0,
+      "N_colloc": 180,
+      "success": true,
+      "nfev": 142,
+      "cost": 0.78061559584218,
+      "physics_rms": 0.008294464519144085,
+      "measurement_rms": 1.8003341595653812,
+      "position_rms": 1460.7075413045295,
+      "position_range": [
+        39586.79592741995,
+        44075.90484995066
+      ],
+      "meets_position_target": false,
+      "meets_measurement_target": true,
+      "meets_both_targets": false
+    }
+  ],
+  "target_achievers": [],
+  "best_measurement": {
+    "L": 56,
+    "lam_f": 1.0,
+    "lam_th": 500000000.0,
+    "N_colloc": 160,
+    "success": true,
+    "nfev": 112,
+    "cost": 0.37961966050343354,
+    "physics_rms": 0.006828184916832401,
+    "measurement_rms": 1.7697098673388636,
+    "position_rms": 2471.463522334679,
+    "position_range": [
+      37457.08046571976,
+      40674.03864632327
+    ],
+    "meets_position_target": false,
+    "meets_measurement_target": true,
+    "meets_both_targets": false
+  },
+  "best_position": {
+    "L": 64,
+    "lam_f": 1.0,
+    "lam_th": 1000000000.0,
+    "N_colloc": 180,
+    "success": true,
+    "nfev": 142,
+    "cost": 0.78061559584218,
+    "physics_rms": 0.008294464519144085,
+    "measurement_rms": 1.8003341595653812,
+    "position_rms": 1460.7075413045295,
+    "position_range": [
+      39586.79592741995,
+      44075.90484995066
+    ],
+    "meets_position_target": false,
+    "meets_measurement_target": true,
+    "meets_both_targets": false
+  },
+  "best_combined": {
+    "L": 64,
+    "lam_f": 1.0,
+    "lam_th": 1000000000.0,
+    "N_colloc": 180,
+    "success": true,
+    "nfev": 142,
+    "cost": 0.78061559584218,
+    "physics_rms": 0.008294464519144085,
+    "measurement_rms": 1.8003341595653812,
+    "position_rms": 1460.7075413045295,
+    "position_range": [
+      39586.79592741995,
+      44075.90484995066
+    ],
+    "meets_position_target": false,
+    "meets_measurement_target": true,
+    "meets_both_targets": false
+  },
+  "metadata": {
+    "total_configurations": 15,
+    "successful_configurations": 15,
+    "target_achievers_count": 0,
+    "orbit_duration_hours": 2.0,
+    "observations_count": 20,
+    "noise_level_arcsec": 2.0626480624709638,
+    "position_target_km": 10.0,
+    "measurement_target_arcsec": 5.0
+  }
+}
