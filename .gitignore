@@ -212,7 +212,8 @@ $RECYCLE.BIN/
 # *.h5
 # *.hdf5
 
-# Results and plots (optional - uncomment if you want to exclude generated results)
-# data/*.png
+# Results and plots (excluding large generated files)
+data/*.png
+data/*.npz
+# Keep JSON files as they contain important results
 # data/*.json
-# data/*.npz
