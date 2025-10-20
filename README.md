@@ -60,9 +60,20 @@ The approach uses Physics-Informed Neural Networks where the neural network lear
 
 ## Methods Implemented
 
-### 1. Single-Orbit Cartesian ELM
+### 1. Single-Orbit Cartesian ELM (PIELM-Compliant)
 
-**Approach**: Train single ELM on one orbit with corrected observations
+**Approach**: Train single ELM on one orbit with corrected observations using PIELM philosophy
+- **Training Data**: Single GEO orbit, 20 observations over 2 hours
+- **ELM Parameters**: L=24, N_colloc=80
+- **Loss Weights**: λ_f=1.0, λ_th=10000.0
+- **Performance**: 144.6 km position RMS, 22.60 arcsec measurement RMS, 0.000891 physics RMS
+- **Philosophy Compliance**: 100% compliant with PIELM principles
+
+**Status**: ✅ **IMPROVED SUCCESS** - Excellent physics compliance, good measurement accuracy
+
+### 1b. Single-Orbit Cartesian ELM (Legacy)
+
+**Approach**: Train single ELM on one orbit with corrected observations (original implementation)
 - **Training Data**: Single GEO orbit, 20 observations over 2 hours
 - **ELM Parameters**: L=24, N_colloc=80
 - **Loss Weights**: λ_f=1.0, λ_th=10000.0
@@ -129,7 +140,8 @@ The approach uses Physics-Informed Neural Networks where the neural network lear
 
 | Method | Position RMS (km) | Measurement RMS (arcsec) | Physics RMS | Status | Notes |
 |--------|-------------------|---------------------------|-------------|---------|-------|
-| **Single-Orbit Cartesian** | 261.1 | 131,421.6 | 0.001199 | ⚠️ Partial | Good physics, high measurement error |
+| **Single-Orbit Cartesian (PIELM-Compliant)** | 144.6 | 22.60 | 0.000891 | ⚠️ Partial | Excellent physics, good measurement accuracy |
+| **Single-Orbit Cartesian (Legacy)** | 261.1 | 131,421.6 | 0.001199 | ⚠️ Partial | Good physics, high measurement error |
 | **Multi-Orbit Training** | 918,736.9 | 164,176.8 | 3.168550 | ❌ Failed | Fundamentally impossible |
 | **Individual Orbit Training** | 19,389,763.0 | 130,141.1 | 0.026733 | ⚠️ Mixed | Some orbits <50 km, others fail |
 | **Ensemble Selection** | 12.8 | 4.56 | 0.000161 | ⚠️ Partial | Meets measurement target |
