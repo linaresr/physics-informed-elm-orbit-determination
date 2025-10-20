@@ -55,13 +55,13 @@ class OrbitalElementsELM:
         # Get ELM basis functions
         H = self.h(t)
         
-        # Compute element variations
-        delta_a = elm_weights[0] * H[0] if len(H) > 0 else 0
-        delta_e = elm_weights[1] * H[1] if len(H) > 1 else 0
-        delta_i = elm_weights[2] * H[2] if len(H) > 2 else 0
-        delta_Omega = elm_weights[3] * H[3] if len(H) > 3 else 0
-        delta_omega = elm_weights[4] * H[4] if len(H) > 4 else 0
-        delta_M = elm_weights[5] * H[5] if len(H) > 5 else 0
+        # Compute element variations (scalar values)
+        delta_a = elm_weights[0] * H[0, 0] if H.shape[1] > 0 else 0
+        delta_e = elm_weights[1] * H[1, 0] if H.shape[1] > 0 else 0
+        delta_i = elm_weights[2] * H[2, 0] if H.shape[1] > 0 else 0
+        delta_Omega = elm_weights[3] * H[3, 0] if H.shape[1] > 0 else 0
+        delta_omega = elm_weights[4] * H[4, 0] if H.shape[1] > 0 else 0
+        delta_M = elm_weights[5] * H[5, 0] if H.shape[1] > 0 else 0
         
         # Add variations to mean elements
         a = mean_elements[0] + delta_a
@@ -75,10 +75,16 @@ class OrbitalElementsELM:
     
     def solve_kepler_equation(self, M, e, max_iter=10):
         """Solve Kepler's equation: M = E - e*sin(E)"""
-        E = M  # Initial guess
+        M = np.array(M)
+        e = np.array(e)
+        
+        # Ensure eccentricity is positive and reasonable
+        e = np.clip(e, 0.0, 0.99)
+        
+        E = M.copy()  # Initial guess
         for _ in range(max_iter):
             E_new = M + e * np.sin(E)
-            if np.abs(E_new - E) < 1e-10:
+            if np.all(np.abs(E_new - E) < 1e-10):
                 break
             E = E_new
         return E
@@ -86,6 +92,21 @@ class OrbitalElementsELM:
     def elements_to_cartesian(self, elements):
         """Convert orbital elements to Cartesian coordinates."""
         a, e, i, Omega, omega, M = elements
+        
+        # Handle scalar vs array inputs
+        if np.isscalar(a):
+            a, e, i, Omega, omega, M = [a], [e], [i], [Omega], [omega], [M]
+            scalar_output = True
+        else:
+            scalar_output = False
+        
+        # Convert to numpy arrays and apply bounds
+        a = np.clip(np.array(a), 40000000, 45000000)  # GEO altitude range
+        e = np.clip(np.array(e), 0.0, 0.99)          # Reasonable eccentricity
+        i = np.clip(np.array(i), 0.0, np.pi/2)        # Reasonable inclination
+        Omega = np.array(Omega) % (2*np.pi)           # Wrap angles
+        omega = np.array(omega) % (2*np.pi)           # Wrap angles
+        M = np.array(M) % (2*np.pi)                   # Wrap angles
         
         # Solve Kepler's equation for eccentric anomaly
         E = self.solve_kepler_equation(M, e)
@@ -98,19 +119,26 @@ class OrbitalElementsELM:
         r = a * (1 - e**2) / (1 + e * np.cos(nu))
         x_orb = r * np.cos(nu)
         y_orb = r * np.sin(nu)
-        z_orb = 0
+        z_orb = np.zeros_like(x_orb)
         
         # Transform to inertial frame
-        r_orb = np.array([x_orb, y_orb, z_orb])
-        r_eci = self.orbital_to_inertial(r_orb, i, Omega, omega)
+        r_eci = np.zeros((3, len(a)))
+        for j in range(len(a)):
+            r_orb = np.array([x_orb[j], y_orb[j], z_orb[j]])
+            r_eci[:, j] = self.orbital_to_inertial(r_orb, i[j], Omega[j], omega[j])
         
         # Compute velocity (simplified)
         n = np.sqrt(self.mu / a**3)  # Mean motion
-        v_orb = n * a * np.sqrt(1 - e**2) * np.array([-np.sin(nu), 
-                                                      np.cos(nu) + e, 0])
-        v_eci = self.orbital_to_inertial(v_orb, i, Omega, omega)
+        v_eci = np.zeros((3, len(a)))
+        for j in range(len(a)):
+            v_orb = n[j] * a[j] * np.sqrt(1 - e[j]**2) * np.array([-np.sin(nu[j]), 
+                                                                   np.cos(nu[j]) + e[j], 0])
+            v_eci[:, j] = self.orbital_to_inertial(v_orb, i[j], Omega[j], omega[j])
         
-        return r_eci, v_eci
+        if scalar_output:
+            return r_eci[:, 0], v_eci[:, 0]
+        else:
+            return r_eci, v_eci
     
     def orbital_to_inertial(self, r_orb, i, Omega, omega):
         """Transform from orbital plane to inertial frame."""
@@ -135,6 +163,10 @@ class OrbitalElementsELM:
         """Get position, velocity, acceleration at time t."""
         elements = self.elements_at_time(t, beta)
         r, v = self.elements_to_cartesian(elements)
+        
+        # Ensure r is a 1D array for dynamics
+        if r.ndim > 1:
+            r = r.flatten()
         
         # Compute acceleration from dynamics
         from .dynamics import accel_2body_J2

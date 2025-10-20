@@ -1,0 +1,12 @@
+Best measurement RMS (arcsec): 2.99
+Best cost: 0.0001174803182230422
+Best seed: 119
+Gating top seeds (first 8):
+  seed=123 rms=94.00 arcsec
+  seed=104 rms=98.37 arcsec
+  seed=119 rms=142.20 arcsec
+  seed=108 rms=164.73 arcsec
+  seed=114 rms=167.80 arcsec
+  seed=107 rms=234.36 arcsec
+  seed=103 rms=294.53 arcsec
+  seed=112 rms=329.95 arcsec
