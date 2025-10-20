@@ -132,7 +132,7 @@ The approach uses Physics-Informed Neural Networks where the neural network lear
 | **Single-Orbit Cartesian** | 261.1 | 131,421.6 | 0.001199 | ⚠️ Partial | Good physics, high measurement error |
 | **Multi-Orbit Training** | 918,736.9 | 164,176.8 | 3.168550 | ❌ Failed | Fundamentally impossible |
 | **Individual Orbit Training** | 19,389,763.0 | 130,141.1 | 0.026733 | ⚠️ Mixed | Some orbits <50 km, others fail |
-| **Ensemble Selection** | 9.5 | 119560.02 | 0.000162 | ⚠️ Partial | Meets both targets |
+| **Ensemble Selection** | 12.8 | 4.56 | 0.000161 | ⚠️ Partial | Meets measurement target |
 
 **Targets**: <10 km position RMS, <5 arcsec measurement RMS
 
