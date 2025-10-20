@@ -1,0 +1,15 @@
+{
+  "position_error_rms": 9.494118408575085,
+  "measurement_rms": 119560.01521801869,
+  "physics_rms": 0.0001622389919588232,
+  "best_cost": 0.0001230733591200668,
+  "best_seed": 119,
+  "evaluation_time": "2025-10-20T14:14:58.541001",
+  "orbit_parameters": {
+    "t_span_hours": 4.0,
+    "n_obs": 36,
+    "noise_level_arcsec": 4.1252961249419275,
+    "L": 32,
+    "N_colloc": 120
+  }
+}
