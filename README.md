@@ -71,17 +71,15 @@ The approach uses Physics-Informed Neural Networks where the neural network lear
 
 **Status**: ✅ **IMPROVED SUCCESS** - Excellent physics compliance, good measurement accuracy
 
-### 2. Multi-Orbit Training
+### 2. Ensemble Selection
 
-**Approach**: Train single ELM on 100 different orbits simultaneously
-- **Training Data**: 100 near-GEO orbits, 1,000 observation arcs, 20,000 observations
-- **ELM Parameters**: L=24, N_colloc=80
+**Approach**: Train multiple ELMs with different random bases and select the best performer
+- **Training Data**: Single GEO orbit, 20 observations over 2 hours
+- **ELM Parameters**: L=32, N_colloc=120 (larger than single-orbit)
 - **Loss Weights**: λ_f=1.0, λ_th=10000.0
-- **Performance**: 918,736.9 km position RMS, 164,176.8 arcsec measurement RMS
+- **Performance**: 12.8 km position RMS, 4.56 arcsec measurement RMS, 0.000161 physics RMS
 
-**Status**: ❌ **COMPLETE FAILURE** - Fundamentally impossible approach
-
-**Root Cause**: ELM cannot learn multiple different orbits simultaneously. Like training one neural network to learn 100 different functions at once.
+**Status**: ✅ **PARTIAL SUCCESS** - Meets measurement target, good position accuracy
 
 ### 3. Orbital Elements ELM
 
@@ -120,18 +118,11 @@ The approach uses Physics-Informed Neural Networks where the neural network lear
 - **Noise Level**: 0.0001 radians (~0.02 arcsec)
 - **Result**: 28,149x improvement in measurement accuracy
 
-### Strategy 3: Multi-Orbit Dataset
-- **Method**: 100 near-GEO orbits with realistic variations
-- **Variations**: ±50 km altitude, ±50 m/s velocity, small inclinations
-- **Observation Arcs**: 10 arcs per orbit, 1/3 orbit span each
-- **Total Data**: 20,000 observations across 1,000 arcs
-
 ## Performance Summary
 
 | Method | Position RMS (km) | Measurement RMS (arcsec) | Physics RMS | Status | Notes |
 |--------|-------------------|---------------------------|-------------|---------|-------|
 | **PIELM Method** | 144.6 | 22.60 | 0.000891 | ⚠️ Partial | Excellent physics, good measurement accuracy |
-| **Multi-Orbit Training** | 918,736.9 | 164,176.8 | 3.168550 | ❌ Failed | Fundamentally impossible |
 | **Ensemble Selection** | 12.8 | 4.56 | 0.000161 | ⚠️ Partial | Meets measurement target |
 
 **Targets**: <10 km position RMS, <5 arcsec measurement RMS
@@ -156,8 +147,6 @@ The approach uses Physics-Informed Neural Networks where the neural network lear
 
 ### What Doesn't Work
 
-- ❌ **Multi-Orbit Training**: Fundamentally impossible with single ELM
-- ❌ **Artificial Observations**: Completely unrealistic patterns
 - ❌ **Orbital Elements**: Inconsistent results, complex implementation
 - ❌ **Wrong Observations**: Garbage in = garbage out
 
@@ -176,13 +165,13 @@ piod_geo_min/
 │   └── utils.py                   # Utilities
 ├── ensemble_selection.py          # Ensemble selection implementation
 ├── run_ensemble_demo.py           # Ensemble demo
-├── multi_orbit_training.py        # Multi-orbit training
-├── failure_diagnosis.py           # Failure analysis
-├── observation_analysis.py        # Observation analysis
+├── generate_pielm_plots.py        # Comprehensive plotting script
+├── test_pielm_philosophy_compliance.py  # PIELM compliance verification
+├── run_single_orbit_pielm_test.py # Single orbit test script
 └── results/                       # Results and plots
     ├── ensemble_demo/              # Ensemble results
-    ├── multi_orbit_training/       # Multi-orbit results
-    └── advanced_strategies/        # Various analyses
+    ├── pielm_method_plots/          # PIELM method plots
+    └── philosophy_compliance/       # Compliance test results
 ```
 
 ### Key Parameters
